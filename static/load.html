@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜鸟登录</title>
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/load.css">
+</head>
+<body>
+<!--导航栏开始-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">菜鸟线下测试</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+        </ul>
+    </div>
+</nav>
+<!--导航栏结束-->
+<!--注册信息显示-->
+<form class="form-horizontal container" role="form">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">用户名</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="name"
+                   placeholder="请输入用户名" pattern="^[A-Z][A-Za-z\u4e00-\u9fa5_]{5-11}" required name="name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">密码</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="password"
+                   placeholder="请输入密码" pattern="[0-9a-zA-Z_]{6-16}" name="password">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">登录</button>
+        </div>
+    </div>
+</form>
+
+
+<script src="libs/bootStrap/js/bootstrap.js"></script>
+<script src="libs/jquery-3.1.1.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/load.js"></script>
+</body>
+</html>

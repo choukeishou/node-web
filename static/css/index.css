@@ -1,0 +1,110 @@
+
+.box {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+
+}
+
+.box .left {
+	width: 750px;
+	border: 1px solid green;
+	/*height: 500px;*/
+}
+
+.left-top {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	outline: 1px dotted red;
+}
+
+.left-content {
+	width: 100%;
+	height: 300px;
+	overflow-y: scroll;
+	outline: 1px solid cadetblue;
+}
+
+.left-img {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 25px;
+	outline: 1px dotted gainsboro;
+}
+
+.left-img .icon {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	margin-left: 20px;
+	margin-top: 4px;
+	background-image: url("../images/icon.png");
+	background-position: 18px 480px;
+}
+
+.icon-detail {
+	position: absolute;
+	left: -10px;
+	bottom: 35px;
+	width: 320px;
+	height: 198px;
+	display: none;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.icon-detail ul {
+	width: 302px;
+	height: 180px;
+	padding: 0;
+	margin: 7px auto;
+	border-top:1px solid #ccc;
+	border-left: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.icon-detail li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	width: 30px;
+	height: 30px;
+	float: left;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.icon-detail img {
+	width: 22px;
+	height: 22px;
+}
+.icon-detail>img{
+	position: absolute;
+	bottom: -9px;
+	left: 5px;
+	width: 24px;
+	height: 9px;
+}
+.left-input{
+	width: 100%;
+	height: 140px;
+}
+#text{
+	width: 100%;
+	height: 100%;
+	resize: none;
+}
+.left-button{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	text-align: right;
+}
+.left-button button{
+}

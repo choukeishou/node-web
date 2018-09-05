@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜鸟测试</title>
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body ng-app="app" ng-controller="control">
+<!--导航栏开始-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">菜鸟线下测试</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+            <li><a href="load.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+        </ul>
+    </div>
+</nav>
+<!--导航栏结束-->
+<!--聊天窗口的创建-->
+<div class="box">
+    <div class="left">
+        <!--标题-->
+        <div class="left-top"> <span>正在聊天中....</span> </div>
+        <!--聊天内容-->
+        <div class="left-content">
+            <ul>
+                <li ng-repeat=""></li>
+            </ul>
+
+
+
+        </div>
+        <!--表情选择框-->
+        <div class="left-img">
+            <div class="icon">
+                <div class="icon-detail">
+                    <img src="images/layer_arrow.png" alt="">
+<ul>
+    <li><img src="images/emo_01.gif" alt=""></li>
+    <li><img src="images/emo_02.gif" alt=""></li>
+    <li><img src="images/emo_03.gif" alt=""></li>
+    <li><img src="images/emo_04.gif" alt=""></li>
+    <li><img src="images/emo_05.gif" alt=""></li>
+    <li><img src="images/emo_06.gif" alt=""></li>
+    <li><img src="images/emo_07.gif" alt=""></li>
+    <li><img src="images/emo_08.gif" alt=""></li>
+    <li><img src="images/emo_09.gif" alt=""></li>
+    <li><img src="images/emo_10.gif" alt=""></li>
+    <li><img src="images/emo_11.gif" alt=""></li>
+    <li><img src="images/emo_12.gif" alt=""></li>
+    <li><img src="images/emo_13.gif" alt=""></li>
+    <li><img src="images/emo_14.gif" alt=""></li>
+    <li><img src="images/emo_15.gif" alt=""></li>
+    <li><img src="images/emo_16.gif" alt=""></li>
+    <li><img src="images/emo_17.gif" alt=""></li>
+    <li><img src="images/emo_18.gif" alt=""></li>
+    <li><img src="images/emo_19.gif" alt=""></li>
+    <li><img src="images/emo_20.gif" alt=""></li>
+    <li><img src="images/emo_21.gif" alt=""></li>
+    <li><img src="images/emo_22.gif" alt=""></li>
+    <li><img src="images/emo_23.gif" alt=""></li>
+    <li><img src="images/emo_24.gif" alt=""></li>
+    <li><img src="images/emo_25.gif" alt=""></li>
+    <li><img src="images/emo_26.gif" alt=""></li>
+    <li><img src="images/emo_27.gif" alt=""></li>
+    <li><img src="images/emo_28.gif" alt=""></li>
+    <li><img src="images/emo_29.gif" alt=""></li>
+    <li><img src="images/emo_30.gif" alt=""></li>
+    <li><img src="images/emo_31.gif" alt=""></li>
+    <li><img src="images/emo_32.gif" alt=""></li>
+    <li><img src="images/emo_33.gif" alt=""></li>
+    <li><img src="images/emo_34.gif" alt=""></li>
+    <li><img src="images/emo_35.gif" alt=""></li>
+    <li><img src="images/emo_36.gif" alt=""></li>
+    <li><img src="images/emo_37.gif" alt=""></li>
+    <li><img src="images/emo_38.gif" alt=""></li>
+    <li><img src="images/emo_39.gif" alt=""></li>
+    <li><img src="images/emo_40.gif" alt=""></li>
+    <li><img src="images/emo_41.gif" alt=""></li>
+    <li><img src="images/emo_42.gif" alt=""></li>
+    <li><img src="images/emo_43.gif" alt=""></li>
+    <li><img src="images/emo_44.gif" alt=""></li>
+    <li><img src="images/emo_45.gif" alt=""></li>
+    <li><img src="images/emo_46.gif" alt=""></li>
+    <li><img src="images/emo_47.gif" alt=""></li>
+    <li><img src="images/emo_48.gif" alt=""></li>
+    <li><img src="images/emo_49.gif" alt=""></li>
+    <li><img src="images/emo_50.gif" alt=""></li>
+    <li><img src="images/emo_51.gif" alt=""></li>
+    <li><img src="images/emo_52.gif" alt=""></li>
+    <li><img src="images/emo_53.gif" alt=""></li>
+    <li><img src="images/emo_54.gif" alt=""></li>
+    <li><img src="images/emo_55.gif" alt=""></li>
+    <li><img src="images/emo_56.gif" alt=""></li>
+    <li><img src="images/emo_57.gif" alt=""></li>
+    <li><img src="images/emo_58.gif" alt=""></li>
+    <li><img src="images/emo_59.gif" alt=""></li>
+    <li><img src="images/emo_60.gif" alt=""></li>
+</ul>
+                </div>
+            </div>
+        </div>
+        <!--输入框-->
+        <form action="">
+        <div class="left-input">
+            <textarea name="text" id="text" required>
+            </textarea>
+        </div>
+            <div class="left-button">
+                <button class=" btn btn-default" id='submit'>点击发送</button>
+            </div>
+        </form>
+        <!--输入按钮及其他信息-->
+
+    </div>
+    <div class="box-right"></div>
+</div>
+
+
+<script src="libs/jquery-3.1.1.js"></script>
+<script src="libs/bootStrap/js/bootstrap.js"></script>
+<script src="libs/angular.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

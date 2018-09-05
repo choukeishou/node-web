@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜鸟测试</title>
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/bootStrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.css">
+</head>
+<body>
+<!--导航栏开始-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">菜鸟线下测试</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>-->
+            <li><a href="load.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+        </ul>
+    </div>
+</nav>
+<!--导航栏结束-->
+<!--注册信息显示-->
+<form class="form-horizontal container" role="form">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">用户名</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="name"
+                   placeholder="请输入用户名" pattern="^[A-Z][A-Za-z\u4e00-\u9fa5_]{5-11}" required name="name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">密码</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="password"
+                   placeholder="请输入密码" pattern="[0-9a-zA-Z_]{6-16}" name="password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="confirm" class="col-sm-2 control-label">确认密码</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="confirm"
+                   placeholder="请再次输入密码" pattern="[0-9a-zA-Z_]{6-16}" name="confirm">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="date" class="col-sm-2 control-label">出生日期</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="date"
+                   placeholder="请选择出生日期" name="date">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-4">
+            <button type="submit" class="btn btn-default">点击注册</button>
+            <input type="reset" class="btn btn-default" value="重置" style="margin-left: 50px;">
+        </div>
+    </div>
+</form>
+
+<script src="libs/jquery-3.1.1.js"></script>
+<script src="libs/bootStrap/js/bootstrap.js"></script>
+<script src="libs/jquery-ui/jquery-ui.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

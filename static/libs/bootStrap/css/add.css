@@ -1,0 +1,44 @@
+.navbar{
+	background-color: black;
+}
+.navbar-brand{
+	font-size: 21px;
+}
+header{
+	margin-top:50px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	background-color: #EEEEEE;
+}
+label{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size:16px;
+	text-align: right;
+	margin:10px 15px 10px 0;
+}
+input{
+	height: 30px;
+	margin:10px 15px 10px 0;
+}
+select{
+	width: 60px;
+	height: 30px;
+	margin:10px 15px 10px 0;
+}
+textarea{
+	width: 400px;
+	margin:10px 15px 10px 0;
+	vertical-align: top;
+}
+#submit{
+	margin-left: 115px;
+	border:none;
+	width: 80px;
+	font-size: 18px;
+	color: white;
+	background-color: green;
+	border-radius:5px;
+}
